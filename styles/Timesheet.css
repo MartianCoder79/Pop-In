@@ -1,0 +1,54 @@
+.timesheet-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.timesheet-table {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.view-dev-Info {
+  border-color: #aae6cd;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border-width: 0.3rem;
+  font-size: 0.8rem;
+  background-color: #859482;
+  display: inline-block;
+  border: 0px solid #d8d8d8;
+  color: #fffaf0;
+}
+
+.view-dev-Info:hover {
+  cursor: pointer;
+}
+
+.total-time {
+  margin-bottom: 0.5rem;
+}
+
+.noData {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.total-time {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.table-title {
+  font-style: italic;
+}
+
+.timesheet-table_table {
+  line-height: 2.5rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  /* For desktop: */
+}

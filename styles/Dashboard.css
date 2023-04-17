@@ -1,0 +1,143 @@
+.dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  height: 65vh;
+}
+
+.dashboard-calendar {
+  margin-top: -1rem;
+}
+
+.myButtIn {
+  cursor: pointer;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 4rem;
+  transform: rotate(-15deg);
+  background-color: #c58d5f;
+}
+
+.myButtIn:active {
+  transform: scale(0.9) rotate(-15deg);
+}
+
+.myButtOut {
+  cursor: pointer;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 4rem;
+  transform: rotate(15deg);
+  background-color: #e3b695;
+}
+
+.myButtOut:active {
+  transform: scale(0.9) rotate(15deg);
+}
+
+.clockIn-details_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+}
+
+.clock-content {
+  margin: 0;
+}
+
+.clock {
+  text-align: center;
+}
+
+.clock-icon {
+  font-size: 1rem;
+}
+
+.view-dev-Info {
+  border-color: #aae6cd;
+  margin: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border-width: 0.3rem;
+  font-size: 0.8rem;
+  background-color: #859482;
+  display: inline-block;
+  border: 0px solid #d8d8d8;
+  color: #fffaf0;
+}
+
+.view-dev-Info:active {
+  cursor: pointer;
+  transform: scale(0.9);
+} 
+
+@media only screen and (max-height: 666px) {
+  /* For desktop: */
+  .myButtIn {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+  }
+  .myButtOut {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+  }
+  .view-dev-Info {
+    margin: 2.5rem;
+  }
+  .view-dev-Info:hover {
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .myButtIn {
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+  }
+
+  .myButtOut {
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+  }
+
+  .clock-content {
+    font-size: 1.3rem;
+  }
+  
+  .clock-icon {
+    font-size: 1.5rem;
+  }
+  
+  .dashboard-clock {
+    font-size: 1.8rem;
+  }
+
+  .dashboard-calendar {
+    font-size: 1.2rem;
+  }
+  
+  .view-dev-Info {
+    margin: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .view-dev-Info:hover {
+    cursor: pointer;
+  }
+}

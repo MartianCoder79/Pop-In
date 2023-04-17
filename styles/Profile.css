@@ -1,0 +1,16 @@
+.profile-container {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 7rem;
+  margin-top: 11rem;
+}
+
+.profilePic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profileInfo {
+  margin: 1rem;
+}
